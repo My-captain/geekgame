@@ -1,0 +1,49 @@
+#端口配置
+server:
+  port: 8000
+
+#服务名称
+spring:
+  application:
+    name: geek-gateway
+
+  cloud:
+    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        file-extension: yml
+#        namespace: geek-dev
+#        group: GEEK_GROUP
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: geek-dev
+        group: GEEK_GROUP
+
+    ### 选择符合前缀的IP作为服务注册IP
+    inetutils:
+      preferred-networks: 192.168
+
+    gateway:
+      discovery:
+        locator:
+          ####开启以服务id去注册中心上获取转发地址
+          enabled: true
+          ####实例名大小写均可
+          lower-case-service-id: true
+        ###路由策略
+      routes:
+        ###路由id
+        - id: api-account
+          ####转发
+          uri: lb://geek-account
+          ####匹配规则
+          predicates:
+            - Path=/api-account/**
+          filters:
+            ##截取url，本例中就是会把/api-account截掉，后面的部分才是转发的url
+            - StripPrefix=1
+
+swagger:
+  butler:
+    api-docs-path:  /v2/api-docs
+    auto-generate-from-scg-routes: true

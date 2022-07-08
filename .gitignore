@@ -1,0 +1,4 @@
+# Project exclude paths
+/geek-base/geek-common/target/
+/geek-service/geek-account/target/
+/geek-service/geek-gateway/target/

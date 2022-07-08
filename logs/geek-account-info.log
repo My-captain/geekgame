@@ -1,0 +1,380 @@
+[10.30.95.235:8081] 2022-07-07 16:25:23.102 INFO  21517 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[127.0.0.1:8081] 2022-07-07 16:25:23.876 INFO  21517 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[127.0.0.1:8081] 2022-07-07 16:25:25.343 INFO  21517 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=4c03662a-705b-3978-ab72-c06f0d77c36a
+[127.0.0.1:8081] 2022-07-07 16:25:25.375 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:25.392 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:25.396 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:25.399 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:25.402 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:25.406 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:25.761 INFO  21517 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$99af9e51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[127.0.0.1:8081] 2022-07-07 16:25:26.487 INFO  21517 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[127.0.0.1:8081] 2022-07-07 16:25:26.513 INFO  21517 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[127.0.0.1:8081] 2022-07-07 16:25:26.514 INFO  21517 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[127.0.0.1:8081] 2022-07-07 16:25:26.515 INFO  21517 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[127.0.0.1:8081] 2022-07-07 16:25:26.740 INFO  21517 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[127.0.0.1:8081] 2022-07-07 16:25:26.740 INFO  21517 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2846 ms
+[127.0.0.1:8081] 2022-07-07 16:25:27.379 INFO  21517 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[127.0.0.1:8081] 2022-07-07 16:25:27.462 INFO  21517 [Druid-ConnectionPool-Create-1020552337] c.a.d.pool.DruidAbstractDataSource {dataSource-1} failContinuous is true
+[192.168.1.100:8081] 2022-07-07 21:11:19.327 INFO  21926 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:11:20.752 INFO  21926 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:11:22.904 INFO  21926 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=2dfd0af9-ed24-30e7-9903-54b2c097054e
+[192.168.1.100:8081] 2022-07-07 21:11:22.992 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:23.030 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:23.042 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:23.048 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:23.060 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:23.069 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:23.718 INFO  21926 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$25108540] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:11:24.236 INFO  21926 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:11:24.256 INFO  21926 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:11:24.257 INFO  21926 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:11:24.258 INFO  21926 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:11:24.392 INFO  21926 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:11:24.393 INFO  21926 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3606 ms
+[192.168.1.100:8081] 2022-07-07 21:11:24.956 INFO  21926 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:11:25.131 INFO  21926 [Druid-ConnectionPool-Create-2009218448] c.a.d.pool.DruidAbstractDataSource {dataSource-1} failContinuous is true
+[192.168.1.100:8081] 2022-07-07 21:11:58.808 INFO  21934 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:11:59.775 INFO  21934 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:12:00.826 INFO  21934 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=2dfd0af9-ed24-30e7-9903-54b2c097054e
+[192.168.1.100:8081] 2022-07-07 21:12:00.856 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:00.892 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:00.895 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:00.898 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:00.901 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:00.904 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:01.292 INFO  21934 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$e3680430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:12:01.590 INFO  21934 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:12:01.599 INFO  21934 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:12:01.600 INFO  21934 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:12:01.601 INFO  21934 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:12:01.705 INFO  21934 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:12:01.705 INFO  21934 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1911 ms
+[192.168.1.100:8081] 2022-07-07 21:12:02.060 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:12:02.275 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} inited
+[192.168.1.100:8081] 2022-07-07 21:12:02.283 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} inited
+[192.168.1.100:8081] 2022-07-07 21:12:02.368 INFO  21934 [main] o.a.s.core.log.ConfigurationLogger ShardingRuleConfiguration:
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: geek-$->{type}
+    shardingColumn: type
+tables:
+  tb_account:
+    actualDataNodes: geek-0$->{1..3}.tb_account$->{2020..2022}
+    logicTable: tb_account
+    tableStrategy:
+      inline:
+        algorithmExpression: tb_account$->{year}
+        shardingColumn: year
+
+[192.168.1.100:8081] 2022-07-07 21:12:02.369 INFO  21934 [main] o.a.s.core.log.ConfigurationLogger Properties:
+sql.show: 'true'
+
+[192.168.1.100:8081] 2022-07-07 21:12:02.388 INFO  21934 [main] ShardingSphere-metadata Loading 1 logic tables' meta data.
+[192.168.1.100:8081] 2022-07-07 21:12:02.419 INFO  21934 [main] ShardingSphere-metadata Meta data load finished, cost 50 milliseconds.
+[192.168.1.100:8081] 2022-07-07 21:12:03.213 INFO  21934 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:12:03.219 INFO  21934 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:12:03.357 INFO  21934 [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:12:03.587 INFO  21934 [main] o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:12:04.210 INFO  21934 [main] o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:12:04.295 INFO  21934 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8081 (http) with context path ''
+[192.168.1.100:8081] 2022-07-07 21:12:14.244 INFO  21934 [main] o.s.s.c.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:12:14.249 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+[192.168.1.100:8081] 2022-07-07 21:12:14.260 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+[192.168.1.100:8081] 2022-07-07 21:12:14.260 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closing ...
+[192.168.1.100:8081] 2022-07-07 21:12:14.261 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+[192.168.1.100:8081] 2022-07-07 21:12:14.262 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closing ...
+[192.168.1.100:8081] 2022-07-07 21:12:14.263 INFO  21934 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+[192.168.1.100:8081] 2022-07-07 21:12:14.270 INFO  21934 [main] o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:12:14.279 INFO  21934 [main] o.a.catalina.core.StandardService Stopping service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:12:14.284 INFO  21934 [main] o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:12:14.332 INFO  21934 [main] o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:12:14.356 INFO  21934 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[192.168.1.100:8081] 2022-07-07 21:13:16.608 INFO  21974 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:13:18.032 INFO  21974 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:13:19.526 INFO  21974 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=2dfd0af9-ed24-30e7-9903-54b2c097054e
+[192.168.1.100:8081] 2022-07-07 21:13:19.553 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:19.566 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:19.570 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:19.573 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:19.576 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:19.579 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:19.876 INFO  21974 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$c86e93e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:13:20.259 INFO  21974 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:13:20.277 INFO  21974 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:13:20.279 INFO  21974 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:13:20.279 INFO  21974 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:13:20.400 INFO  21974 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:13:20.401 INFO  21974 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2340 ms
+[192.168.1.100:8081] 2022-07-07 21:13:20.734 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:13:20.929 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} inited
+[192.168.1.100:8081] 2022-07-07 21:13:20.937 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} inited
+[192.168.1.100:8081] 2022-07-07 21:13:21.000 INFO  21974 [main] o.a.s.core.log.ConfigurationLogger ShardingRuleConfiguration:
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: geek-$->{type}
+    shardingColumn: type
+tables:
+  tb_account:
+    actualDataNodes: geek-0$->{1..3}.tb_account$->{2020..2022}
+    logicTable: tb_account
+    tableStrategy:
+      inline:
+        algorithmExpression: tb_account$->{year}
+        shardingColumn: year
+
+[192.168.1.100:8081] 2022-07-07 21:13:21.001 INFO  21974 [main] o.a.s.core.log.ConfigurationLogger Properties:
+sql.show: 'true'
+
+[192.168.1.100:8081] 2022-07-07 21:13:21.018 INFO  21974 [main] ShardingSphere-metadata Loading 1 logic tables' meta data.
+[192.168.1.100:8081] 2022-07-07 21:13:21.046 INFO  21974 [main] ShardingSphere-metadata Meta data load finished, cost 44 milliseconds.
+[192.168.1.100:8081] 2022-07-07 21:13:21.790 INFO  21974 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:13:21.796 INFO  21974 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:13:21.909 INFO  21974 [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:13:22.052 INFO  21974 [main] o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:13:22.529 INFO  21974 [main] o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:13:22.558 INFO  21974 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8081 (http) with context path ''
+[192.168.1.100:8081] 2022-07-07 21:13:32.572 INFO  21974 [main] o.s.s.c.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:13:32.577 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+[192.168.1.100:8081] 2022-07-07 21:13:32.585 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+[192.168.1.100:8081] 2022-07-07 21:13:32.586 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closing ...
+[192.168.1.100:8081] 2022-07-07 21:13:32.587 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+[192.168.1.100:8081] 2022-07-07 21:13:32.587 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closing ...
+[192.168.1.100:8081] 2022-07-07 21:13:32.588 INFO  21974 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+[192.168.1.100:8081] 2022-07-07 21:13:32.591 INFO  21974 [main] o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:13:32.600 INFO  21974 [main] o.a.catalina.core.StandardService Stopping service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:13:32.605 INFO  21974 [main] o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:13:32.659 INFO  21974 [main] o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:13:32.673 INFO  21974 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[192.168.1.100:8081] 2022-07-07 21:25:10.126 INFO  22456 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:25:11.028 INFO  22456 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:25:12.134 INFO  22456 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=2dfd0af9-ed24-30e7-9903-54b2c097054e
+[192.168.1.100:8081] 2022-07-07 21:25:12.163 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.194 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.197 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.200 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.203 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.206 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.502 INFO  22456 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$c78a5891] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:25:12.871 INFO  22456 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:25:12.884 INFO  22456 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:25:12.885 INFO  22456 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:25:12.885 INFO  22456 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:25:12.994 INFO  22456 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:25:12.994 INFO  22456 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 1945 ms
+[192.168.1.100:8081] 2022-07-07 21:25:13.374 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:25:13.563 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} inited
+[192.168.1.100:8081] 2022-07-07 21:25:13.571 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} inited
+[192.168.1.100:8081] 2022-07-07 21:25:13.649 INFO  22456 [main] o.a.s.core.log.ConfigurationLogger ShardingRuleConfiguration:
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: geek-$->{type}
+    shardingColumn: type
+tables:
+  tb_account:
+    actualDataNodes: geek-0$->{1..3}.tb_account$->{2020..2022}
+    logicTable: tb_account
+    tableStrategy:
+      inline:
+        algorithmExpression: tb_account$->{year}
+        shardingColumn: year
+
+[192.168.1.100:8081] 2022-07-07 21:25:13.663 INFO  22456 [main] o.a.s.core.log.ConfigurationLogger Properties:
+sql.show: 'true'
+
+[192.168.1.100:8081] 2022-07-07 21:25:13.680 INFO  22456 [main] ShardingSphere-metadata Loading 1 logic tables' meta data.
+[192.168.1.100:8081] 2022-07-07 21:25:13.708 INFO  22456 [main] ShardingSphere-metadata Meta data load finished, cost 45 milliseconds.
+[192.168.1.100:8081] 2022-07-07 21:25:14.448 INFO  22456 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:25:14.455 INFO  22456 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:25:14.570 INFO  22456 [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:25:14.722 INFO  22456 [main] o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:25:15.391 INFO  22456 [main] o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:25:15.421 INFO  22456 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8081 (http) with context path ''
+[192.168.1.100:8081] 2022-07-07 21:25:25.442 INFO  22456 [main] o.s.s.c.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:25:25.449 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+[192.168.1.100:8081] 2022-07-07 21:25:25.456 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+[192.168.1.100:8081] 2022-07-07 21:25:25.457 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closing ...
+[192.168.1.100:8081] 2022-07-07 21:25:25.457 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+[192.168.1.100:8081] 2022-07-07 21:25:25.458 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closing ...
+[192.168.1.100:8081] 2022-07-07 21:25:25.459 INFO  22456 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+[192.168.1.100:8081] 2022-07-07 21:25:25.462 INFO  22456 [main] o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:25:26.654 INFO  22456 [main] o.a.catalina.core.StandardService Stopping service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:25:26.661 INFO  22456 [main] o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:25:26.718 INFO  22456 [main] o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:25:26.729 INFO  22456 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[192.168.1.100:8081] 2022-07-07 21:28:10.140 INFO  22545 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:28:11.367 INFO  22545 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:28:12.961 INFO  22545 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=2dfd0af9-ed24-30e7-9903-54b2c097054e
+[192.168.1.100:8081] 2022-07-07 21:28:12.998 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.016 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.019 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.023 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.026 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.029 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.393 INFO  22545 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$6f4935d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:28:13.686 INFO  22545 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:28:13.697 INFO  22545 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:28:13.698 INFO  22545 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:28:13.698 INFO  22545 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:28:13.813 INFO  22545 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:28:13.813 INFO  22545 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2423 ms
+[192.168.1.100:8081] 2022-07-07 21:28:14.161 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:28:14.371 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} inited
+[192.168.1.100:8081] 2022-07-07 21:28:14.380 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} inited
+[192.168.1.100:8081] 2022-07-07 21:28:14.463 INFO  22545 [main] o.a.s.core.log.ConfigurationLogger ShardingRuleConfiguration:
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: geek-$->{type}
+    shardingColumn: type
+tables:
+  tb_account:
+    actualDataNodes: geek-0$->{1..3}.tb_account$->{2020..2022}
+    logicTable: tb_account
+    tableStrategy:
+      inline:
+        algorithmExpression: tb_account$->{year}
+        shardingColumn: year
+
+[192.168.1.100:8081] 2022-07-07 21:28:14.464 INFO  22545 [main] o.a.s.core.log.ConfigurationLogger Properties:
+sql.show: 'true'
+
+[192.168.1.100:8081] 2022-07-07 21:28:14.481 INFO  22545 [main] ShardingSphere-metadata Loading 1 logic tables' meta data.
+[192.168.1.100:8081] 2022-07-07 21:28:14.510 INFO  22545 [main] ShardingSphere-metadata Meta data load finished, cost 45 milliseconds.
+[192.168.1.100:8081] 2022-07-07 21:28:15.199 INFO  22545 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:28:15.206 INFO  22545 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:28:15.319 INFO  22545 [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:28:15.468 INFO  22545 [main] o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:28:15.963 INFO  22545 [main] o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:28:15.999 INFO  22545 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8081 (http) with context path ''
+[192.168.1.100:8081] 2022-07-07 21:28:26.009 INFO  22545 [main] o.s.s.c.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:28:26.015 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+[192.168.1.100:8081] 2022-07-07 21:28:26.023 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+[192.168.1.100:8081] 2022-07-07 21:28:26.023 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closing ...
+[192.168.1.100:8081] 2022-07-07 21:28:26.024 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+[192.168.1.100:8081] 2022-07-07 21:28:26.025 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closing ...
+[192.168.1.100:8081] 2022-07-07 21:28:26.025 INFO  22545 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+[192.168.1.100:8081] 2022-07-07 21:28:26.028 INFO  22545 [main] o.a.coyote.http11.Http11NioProtocol Pausing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:28:27.265 INFO  22545 [main] o.a.catalina.core.StandardService Stopping service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:28:27.270 INFO  22545 [main] o.a.coyote.http11.Http11NioProtocol Stopping ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:28:27.332 INFO  22545 [main] o.a.coyote.http11.Http11NioProtocol Destroying ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:28:27.350 INFO  22545 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[192.168.1.100:8081] 2022-07-07 21:38:30.525 INFO  22937 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:38:32.761 INFO  22937 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:38:34.169 INFO  22937 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=2dfd0af9-ed24-30e7-9903-54b2c097054e
+[192.168.1.100:8081] 2022-07-07 21:38:34.203 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:34.221 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:34.225 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:34.228 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:34.232 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:34.235 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:34.572 INFO  22937 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$e238673b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:38:35.027 INFO  22937 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:38:35.039 INFO  22937 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:38:35.040 INFO  22937 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:38:35.041 INFO  22937 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:38:35.168 INFO  22937 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:38:35.168 INFO  22937 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 2355 ms
+[192.168.1.100:8081] 2022-07-07 21:38:35.678 INFO  22937 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:38:35.827 INFO  22937 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} inited
+[192.168.1.100:8081] 2022-07-07 21:38:35.840 INFO  22937 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} inited
+[192.168.1.100:8081] 2022-07-07 21:38:35.914 INFO  22937 [main] o.a.s.core.log.ConfigurationLogger ShardingRuleConfiguration:
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: geek-$->{type}
+    shardingColumn: type
+tables:
+  tb_account:
+    actualDataNodes: geek-0$->{1..3}.tb_account$->{2020..2022}
+    logicTable: tb_account
+    tableStrategy:
+      inline:
+        algorithmExpression: tb_account$->{year}
+        shardingColumn: year
+
+[192.168.1.100:8081] 2022-07-07 21:38:35.915 INFO  22937 [main] o.a.s.core.log.ConfigurationLogger Properties:
+sql.show: 'true'
+
+[192.168.1.100:8081] 2022-07-07 21:38:35.937 INFO  22937 [main] ShardingSphere-metadata Loading 1 logic tables' meta data.
+[192.168.1.100:8081] 2022-07-07 21:38:35.972 INFO  22937 [main] ShardingSphere-metadata Meta data load finished, cost 57 milliseconds.
+[192.168.1.100:8081] 2022-07-07 21:38:36.898 INFO  22937 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:38:36.904 INFO  22937 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:38:37.039 INFO  22937 [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:38:37.251 INFO  22937 [main] o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:38:38.191 INFO  22937 [main] o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:38:38.222 INFO  22937 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8081 (http) with context path ''
+[192.168.1.100:8081] 2022-07-07 21:38:38.315 INFO  22937 [main] c.a.c.n.r.NacosServiceRegistry nacos registry, GEEK_GROUP geek-account 192.168.1.100:8081 register finished
+[192.168.1.100:8081] 2022-07-07 21:38:38.716 INFO  22937 [main] iai.xmu.geek.AccountApplication Started AccountApplication in 10.055 seconds (JVM running for 13.566)
+[192.168.1.100:8081] 2022-07-07 21:38:46.946 INFO  22937 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:38:46.950 INFO  22937 [SpringContextShutdownHook] c.a.c.n.r.NacosServiceRegistry De-registering from Nacos Server now...
+[192.168.1.100:8081] 2022-07-07 21:38:46.967 INFO  22937 [SpringContextShutdownHook] c.a.c.n.r.NacosServiceRegistry De-registration finished.
+[192.168.1.100:8081] 2022-07-07 21:38:54.292 INFO  22937 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:38:54.298 INFO  22937 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+[192.168.1.100:8081] 2022-07-07 21:38:54.305 INFO  22937 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+[192.168.1.100:8081] 2022-07-07 21:38:54.305 INFO  22937 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closing ...
+[192.168.1.100:8081] 2022-07-07 21:38:54.306 INFO  22937 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+[192.168.1.100:8081] 2022-07-07 21:38:54.307 INFO  22937 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closing ...
+[192.168.1.100:8081] 2022-07-07 21:38:54.309 INFO  22937 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
+[192.168.1.100:8081] 2022-07-07 21:41:51.267 INFO  23025 [background-preinit] o.h.validator.internal.util.Version HV000001: Hibernate Validator 6.1.6.Final
+[192.168.1.100:8081] 2022-07-07 21:41:52.565 INFO  23025 [main] iai.xmu.geek.AccountApplication No active profile set, falling back to default profiles: default
+[192.168.1.100:8081] 2022-07-07 21:41:54.894 INFO  23025 [main] o.s.cloud.context.scope.GenericScope BeanFactory id=4c03662a-705b-3978-ab72-c06f0d77c36a
+[192.168.1.100:8081] 2022-07-07 21:41:54.954 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'stringToNoneShardingStrategyConfigurationConverter' of type [org.apache.shardingsphere.spring.boot.converter.StringToNoneShardingStrategyConfigurationConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:54.982 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.sharding-org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.sharding.SpringBootShardingRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:54.987 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.masterslave-org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.masterslave.SpringBootMasterSlaveRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:54.992 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.encrypt-org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.encrypt.SpringBootEncryptRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:55.007 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere.shadow-org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.shadow.SpringBootShadowRuleConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:55.030 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'spring.shardingsphere-org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.common.SpringBootPropertiesConfigurationProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:55.684 INFO  23025 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration' of type [org.apache.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration$$EnhancerBySpringCGLIB$$f0cbdc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[192.168.1.100:8081] 2022-07-07 21:41:56.211 INFO  23025 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat initialized with port(s): 8081 (http)
+[192.168.1.100:8081] 2022-07-07 21:41:56.235 INFO  23025 [main] o.a.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:41:56.236 INFO  23025 [main] o.a.catalina.core.StandardService Starting service [Tomcat]
+[192.168.1.100:8081] 2022-07-07 21:41:56.237 INFO  23025 [main] o.a.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.39]
+[192.168.1.100:8081] 2022-07-07 21:41:56.357 INFO  23025 [main] o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[192.168.1.100:8081] 2022-07-07 21:41:56.357 INFO  23025 [main] o.s.b.w.s.c.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 3736 ms
+[192.168.1.100:8081] 2022-07-07 21:41:57.009 INFO  23025 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[192.168.1.100:8081] 2022-07-07 21:41:57.303 INFO  23025 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-2} inited
+[192.168.1.100:8081] 2022-07-07 21:41:57.315 INFO  23025 [main] c.alibaba.druid.pool.DruidDataSource {dataSource-3} inited
+[192.168.1.100:8081] 2022-07-07 21:41:57.420 INFO  23025 [main] o.a.s.core.log.ConfigurationLogger ShardingRuleConfiguration:
+defaultDatabaseStrategy:
+  inline:
+    algorithmExpression: geek-$->{type}
+    shardingColumn: type
+tables:
+  tb_account:
+    actualDataNodes: geek-0$->{1..3}.tb_account$->{2020..2022}
+    logicTable: tb_account
+    tableStrategy:
+      inline:
+        algorithmExpression: tb_account$->{year}
+        shardingColumn: year
+
+[192.168.1.100:8081] 2022-07-07 21:41:57.421 INFO  23025 [main] o.a.s.core.log.ConfigurationLogger Properties:
+sql.show: 'true'
+
+[192.168.1.100:8081] 2022-07-07 21:41:57.459 INFO  23025 [main] ShardingSphere-metadata Loading 1 logic tables' meta data.
+[192.168.1.100:8081] 2022-07-07 21:41:57.511 INFO  23025 [main] ShardingSphere-metadata Meta data load finished, cost 90 milliseconds.
+[192.168.1.100:8081] 2022-07-07 21:41:58.576 INFO  23025 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:41:58.591 INFO  23025 [main] c.n.c.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[192.168.1.100:8081] 2022-07-07 21:41:58.796 INFO  23025 [main] o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:41:59.059 INFO  23025 [main] o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:42:00.136 INFO  23025 [main] o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8081"]
+[192.168.1.100:8081] 2022-07-07 21:42:00.206 INFO  23025 [main] o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8081 (http) with context path ''
+[192.168.1.100:8081] 2022-07-07 21:42:00.262 INFO  23025 [main] c.a.c.n.r.NacosServiceRegistry nacos registry, GEEK_GROUP geek-account 192.168.1.100:8081 register finished
+[192.168.1.100:8081] 2022-07-07 21:42:00.736 INFO  23025 [main] iai.xmu.geek.AccountApplication Started AccountApplication in 10.259 seconds (JVM running for 10.926)
+[192.168.1.100:8081] 2022-07-07 21:42:08.111 INFO  23025 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[192.168.1.100:8081] 2022-07-07 21:42:08.118 INFO  23025 [SpringContextShutdownHook] c.a.c.n.r.NacosServiceRegistry De-registering from Nacos Server now...
+[192.168.1.100:8081] 2022-07-07 21:42:08.132 INFO  23025 [SpringContextShutdownHook] c.a.c.n.r.NacosServiceRegistry De-registration finished.
+[192.168.1.100:8081] 2022-07-07 21:42:19.278 INFO  23025 [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+[192.168.1.100:8081] 2022-07-07 21:42:19.289 INFO  23025 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closing ...
+[192.168.1.100:8081] 2022-07-07 21:42:19.330 INFO  23025 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-1} closed
+[192.168.1.100:8081] 2022-07-07 21:42:19.330 INFO  23025 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closing ...
+[192.168.1.100:8081] 2022-07-07 21:42:19.333 INFO  23025 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-2} closed
+[192.168.1.100:8081] 2022-07-07 21:42:19.334 INFO  23025 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closing ...
+[192.168.1.100:8081] 2022-07-07 21:42:19.335 INFO  23025 [SpringContextShutdownHook] c.alibaba.druid.pool.DruidDataSource {dataSource-3} closed
