@@ -1,6 +1,5 @@
 package iai.xmu.geek.account.utils;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -10,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SnowFlakeIdUtils {
 
+    // 2015-01-01
     private final long START_DATE = 1420041600000L;
     private final long NUM_WORKER_ID_BITS = 4L;
     // 序列号位数：6， 一个毫秒单位内可单个实例承受并发64个ID
@@ -21,8 +21,8 @@ public class SnowFlakeIdUtils {
 
     @Value("${worker-id}")
     private long workerId;
-    private long sequenceId=0;
-    private long lastTimestamp=-1;
+    private long sequenceId=0L;
+    private long lastTimestamp=-1L;
 
     public synchronized String getSnowflakeId() {
         long time_stamp = getCurrentTimestamp();
@@ -44,8 +44,11 @@ public class SnowFlakeIdUtils {
             sequenceId = 0L;
         }
         lastTimestamp = time_stamp;
-        String hexId = Long.toHexString((time_stamp - START_DATE) << NUM_TIMESTAMP_ID_SHIFTS | (workerId << NUM_WORKER_ID_SHIFTS) | sequenceId);
-        return String.format("%13s", hexId).replace(' ', '0');
+        return String.format("%13s", Long.toHexString(
+                (time_stamp - START_DATE) << NUM_TIMESTAMP_ID_SHIFTS
+                        | (workerId << NUM_WORKER_ID_SHIFTS)
+                        | sequenceId)
+        ).replace(' ', '0');
     }
 
     /**

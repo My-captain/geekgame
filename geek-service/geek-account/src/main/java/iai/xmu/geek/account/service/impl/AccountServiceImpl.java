@@ -17,6 +17,7 @@ import iai.xmu.geek.account.model.query.AccountQuery;
 import iai.xmu.geek.account.model.vo.AccountVO;
 import iai.xmu.geek.account.service.AccountService;
 import iai.xmu.geek.account.utils.ResultUtils;
+import iai.xmu.geek.account.utils.SnowFlakeIdUtils;
 import iai.xmu.geek.commom.constant.Constant;
 import iai.xmu.geek.commom.exception.GeekException;
 import iai.xmu.geek.commom.utils.DateUtils;
@@ -24,6 +25,7 @@ import iai.xmu.geek.commom.utils.StringUtils;
 import iai.xmu.geek.commom.web.ErrorCode;
 import iai.xmu.geek.commom.web.PageModel;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -50,6 +52,9 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
         typeMap.put("02", "个人定期");
         typeMap.put("03", "对公户");
     }
+
+    @Autowired
+    private SnowFlakeIdUtils snowFlakeIdUtils;
 
     @Override
     public PageModel<AccountVO> page(AccountQuery param) {
@@ -100,25 +105,29 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
 
         Date openTime = new Date();
         String year = DateUtils.fromDate(openTime, "yyyy");
-        String date = DateUtils.fromDate(openTime, Constant.SHORT_DATE_PATTERN);
+//        String date = DateUtils.fromDate(openTime, Constant.SHORT_DATE_PATTERN);
+//
+//        LambdaQueryWrapper<AccountDO> wrapper = new LambdaQueryWrapper<>();
+//        wrapper.eq(AccountDO::getType, param.getType());
+//        wrapper.eq(AccountDO::getYear, year);
+//        wrapper.orderByDesc(AccountDO::getAccount);
+//        wrapper.last(" limit 1");
+//        AccountDO last = this.baseMapper.selectOne(wrapper);
 
-        LambdaQueryWrapper<AccountDO> wrapper = new LambdaQueryWrapper<>();
-        wrapper.eq(AccountDO::getType, param.getType());
-        wrapper.eq(AccountDO::getYear, year);
-        wrapper.orderByDesc(AccountDO::getAccount);
-        wrapper.last(" limit 1");
-        AccountDO last = this.baseMapper.selectOne(wrapper);
+//         优化点：账户生成需要考虑高并发情况
+//        String serialNo = "0001";
+//        if (null != last) {
+//            String lastDate = last.getAccount().substring(2, 10);
+//            serialNo = lastDate.equals(date) ?
+//                    String.format("%04d", Integer.valueOf(last.getAccount().substring(10)) + 1) : serialNo;
+//        }
 
-        // 优化点：账户生成需要考虑高并发情况
-        String serialNo = "0001";
-        if (null != last) {
-            String lastDate = last.getAccount().substring(2, 10);
-            serialNo = lastDate.equals(date) ?
-                    String.format("%04d", Integer.valueOf(last.getAccount().substring(10)) + 1) : serialNo;
-        }
+
+        String snowflake_id = snowFlakeIdUtils.getSnowflakeId();
+
 
         // 生成账户： 类型 + yyyyMMdd日期 + 4位流水号
-        String account = param.getType() + date + serialNo;
+        String account = param.getType() + year + snowflake_id;
         AccountDO entity = new AccountDO();
         entity.setAccount(account);
         entity.setOwner(param.getOwner());
@@ -191,10 +200,7 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
         if (!typeList.contains(account.substring(0, 2))) {
             return false;
         }
-        if (!yearList.contains(account.substring(2, 6))) {
-            return false;
-        }
-        return true;
+        return yearList.contains(account.substring(2, 6));
     }
 
 }
