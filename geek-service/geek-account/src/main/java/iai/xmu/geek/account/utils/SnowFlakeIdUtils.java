@@ -19,7 +19,7 @@ public class SnowFlakeIdUtils {
     private final long NUM_TIMESTAMP_ID_SHIFTS = NUM_SEQUENCE_ID_BITS + NUM_WORKER_ID_BITS;
     private final long SEQUENCE_MASK = ~(-1L << NUM_SEQUENCE_ID_BITS);
 
-    @Value("${workerId}")
+    @Value("${worker-id}")
     private long workerId;
     private long sequenceId=0;
     private long lastTimestamp=-1;
