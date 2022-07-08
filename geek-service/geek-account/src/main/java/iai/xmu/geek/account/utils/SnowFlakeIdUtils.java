@@ -44,11 +44,12 @@ public class SnowFlakeIdUtils {
             sequenceId = 0L;
         }
         lastTimestamp = time_stamp;
-        return String.format("%13s", Long.toHexString(
-                (time_stamp - START_DATE) << NUM_TIMESTAMP_ID_SHIFTS
+        // 往14位填充
+        return String.format("%14s", Long.toHexString(
+                ((time_stamp - START_DATE) << NUM_TIMESTAMP_ID_SHIFTS)
                         | (workerId << NUM_WORKER_ID_SHIFTS)
                         | sequenceId)
-        ).replace(' ', '0');
+        ).replace(" ", "0");
     }
 
     /**
