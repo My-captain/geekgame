@@ -193,13 +193,20 @@ public class AccountServiceImpl extends ServiceImpl<AccountMapper, AccountDO> im
     }
 
 
+    /**
+     * 判断账户是否合法
+     * @param account
+     * @return
+     */
     private boolean checkAccount(String account) {
-        if (StringUtils.isEmpty(account) || account.length() != 14) {
+        if (StringUtils.isEmpty(account) || account.length() != 20) {
             return false;
         }
+        // 检查账户类型
         if (!typeList.contains(account.substring(0, 2))) {
             return false;
         }
+        // 检查账户年份
         return yearList.contains(account.substring(2, 6));
     }
 

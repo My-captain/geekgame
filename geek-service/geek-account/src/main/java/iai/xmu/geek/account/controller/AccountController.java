@@ -26,9 +26,16 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
 
-    @GetMapping("/page")
+//    @GetMapping("/page")
+//    @ApiOperation("分页查询")
+//    public Result<PageModel<AccountVO>> pageAccount(@Validated AccountQuery param) {
+//        PageModel<AccountVO> rst = accountService.page(param);
+//        return Result.success(rst);
+//    }
+
+    @PostMapping("/page")
     @ApiOperation("分页查询")
-    public Result<PageModel<AccountVO>> pageAccount(@Validated AccountQuery param) {
+    public Result<PageModel<AccountVO>> pageAccount(@Validated @RequestBody AccountQuery param) {
         PageModel<AccountVO> rst = accountService.page(param);
         return Result.success(rst);
     }

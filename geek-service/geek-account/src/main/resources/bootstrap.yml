@@ -7,6 +7,10 @@ spring:
   application:
     name: geek-account
 
+  # 时区问题
+  jackson:
+    time-zone: GMT+8
+
   cloud:
     nacos:
 #      config:
@@ -37,21 +41,21 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://localhost:3306/geek-01?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
-        password: echo
+        password: 990505
       # 个人定期库
       geek-02:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://localhost:3306/geek-02?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
-        password: echo
+        password: 990505
       # 对公户库
       geek-03:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://localhost:3306/geek-03?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
-        password: echo
+        password: 990505
     sharding:
       # 分库策略 => 根据type拆分到不同的库中
       default-database-strategy:

@@ -22,7 +22,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_account2020`;
 CREATE TABLE `tb_account2020`  (
-  `account` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '账户：类型+年份+13位分布式ID',
+  `account` char(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '账户：类型+年份+14位分布式ID',
   `owner` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '开户人',
   `type` char(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '账户类型：01-个人账户，02-个人定期，03-对公户',
   `year` char(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '开立年份',
@@ -38,7 +38,7 @@ CREATE TABLE `tb_account2020`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_account2021`;
 CREATE TABLE `tb_account2021`  (
-  `account` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '账户：类型+年份+13位分布式ID',
+  `account` char(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '账户：类型+年份+14位分布式ID',
   `owner` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '开户人',
   `type` char(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '账户类型：01-个人账户，02-个人定期，03-对公户',
   `year` char(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '开立年份',
@@ -54,7 +54,7 @@ CREATE TABLE `tb_account2021`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `tb_account2022`;
 CREATE TABLE `tb_account2022`  (
-  `account` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '账户：类型+年份+13位分布式ID',
+  `account` char(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL COMMENT '账户：类型+年份+14位分布式ID',
   `owner` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '开户人',
   `type` char(2) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '账户类型：01-个人账户，02-个人定期，03-对公户',
   `year` char(4) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT '开立年份',
